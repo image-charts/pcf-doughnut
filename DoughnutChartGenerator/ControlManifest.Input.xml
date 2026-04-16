@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ImageCharts" constructor="DoughnutChartGenerator" version="1.0.0" display-name-key="DoughnutChartGenerator" description-key="Generates signed Image-Charts Doughnut Charts" control-type="standard">
+
+    <property name="accountId" display-name-key="Account ID" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="secretKey" display-name-key="Secret Key" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="privateCloudDomain" display-name-key="Private Cloud Domain" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="data" display-name-key="Data" description-key="Doughnut slice values" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="labels" display-name-key="Labels" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="colors" display-name-key="Colors" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="title" display-name-key="Title" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="chartSize" display-name-key="Chart Size" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="advancedOptions" display-name-key="Advanced Options" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="showDebugUrl" display-name-key="Show Debug URL" of-type="TwoOptions" usage="input" required="false" />
+    <property name="errorPlaceholderUrl" display-name-key="Error Placeholder URL" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="signedUrl" display-name-key="Signed URL" of-type="SingleLine.Text" usage="output" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/DoughnutChartGenerator.css" order="1" />
+    </resources>
+  </control>
+</manifest>
