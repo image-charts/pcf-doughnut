@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] - 2026-06-12
+## [1.0.0] - 2026-06-13
 
 ### Added
 - Initial release of Image-Charts Doughnut Chart Generator PCF component
