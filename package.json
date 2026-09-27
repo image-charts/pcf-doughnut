@@ -1,6 +1,6 @@
 {
   "name": "@image-charts/pcf-doughnut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Image-Charts Doughnut Chart Generator for Microsoft Power Apps (PCF Component)",
   "main": "solution/ImageChartsDoughnut.zip",
   "types": "src/DoughnutChartGenerator/index.d.ts",
