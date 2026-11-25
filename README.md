@@ -25,8 +25,8 @@ DoughnutChartGenerator.labels = "Red,Green,Blue"
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `accountId` | Text | No* | Enterprise Account ID |
-| `secretKey` | Text | No* | Enterprise Secret Key |
+| `accountId` | Text | No* | Paid plan account ID |
+| `secretKey` | Text | No* | Paid plan secret key |
 | `privateCloudDomain` | Text | No* | Private Cloud domain |
 | `data` | Text | **Yes** | Slice values (CSV or pipe-separated) |
 | `labels` | Text | No | Slice labels |
